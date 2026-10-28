@@ -1,0 +1,38 @@
+---
+const title = 'Loop Control OS — inteligentne centrum rozwoju firmy';
+const description = 'Loop Control OS łączy CRM, sprzedaż, analizę leadów i marketing w jednym środowisku. Poznaj modułową platformę dla rozwijających się firm.';
+---
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#080f1e" />
+    <link rel="canonical" href="https://loopcontrolos.pl/" />
+    <title>{title}</title>
+    <style>
+      :root{color-scheme:dark;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#080f1e;color:#f1f5ff}
+      *{box-sizing:border-box}body{margin:0;min-width:320px;background:radial-gradient(ellipse at 80% 10%,#1b3b5c 0%,transparent 42%),#080f1e}a{color:inherit}a:focus-visible{outline:3px solid #7ce5ff;outline-offset:4px}
+      .wrap{width:min(1120px,calc(100% - 40px));margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:26px 0}.brand{font-size:1.1rem;font-weight:800;letter-spacing:-.03em;text-decoration:none}.brand span{color:#6de3e5}.nav a:last-child{font-size:.9rem;text-decoration:none;color:#cbd5e1}
+      main{padding:clamp(65px,11vw,145px) 0 100px}.eyebrow{display:inline-flex;padding:9px 14px;border:1px solid #35536d;border-radius:99px;background:#102438;color:#93e9ec;font-size:.85rem;font-weight:650}h1{max-width:930px;font-size:clamp(2.8rem,7.4vw,6.5rem);line-height:1.05;letter-spacing:-.065em;margin:26px 0}h1 em{font-style:normal;color:#73e1e5}p.lead{font-size:clamp(1.05rem,2vw,1.3rem);line-height:1.7;color:#b8c6d8;max-width:680px}.actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 22px;border-radius:12px;text-decoration:none;font-weight:700}.primary{background:#75e4e5;color:#071624}.secondary{border:1px solid #496076;color:#e8f1ff}.section{padding:35px 0 85px}.section h2{font-size:clamp(1.7rem,4vw,2.8rem);letter-spacing:-.04em}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{border:1px solid #273e57;border-radius:20px;background:linear-gradient(150deg,#15283d,#0b182a);padding:28px;min-height:190px}.card h3{font-size:1.3rem}.card p{color:#aebed2;line-height:1.6}footer{border-top:1px solid #26384d;padding:30px 0;color:#aebed2;font-size:.9rem}
+      @media(max-width:720px){.cards{grid-template-columns:1fr}.nav{padding:20px 0}main{padding-top:60px}.card{min-height:unset}.wrap{width:min(100% - 32px,1120px)}}
+      @media(prefers-reduced-motion:no-preference){.btn{transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}}
+    </style>
+  </head>
+  <body>
+    <header class="wrap nav"><a class="brand" href="/" aria-label="Loop Control OS — strona główna">LOOP CONTROL <span>OS</span></a><a href="#mozliwosci">Możliwości</a></header>
+    <main class="wrap">
+      <span class="eyebrow">Modułowa platforma dla nowoczesnych firm</span>
+      <h1>Twój biznes.<br /><em>Jedno centrum dowodzenia.</em></h1>
+      <p class="lead">Leady, relacje z klientami, sprzedaż i marketing — zaprojektowane jako spójny system. Mniej przełączania narzędzi. Więcej kontroli nad rozwojem firmy.</p>
+      <div class="actions"><a class="btn primary" href="#mozliwosci">Poznaj możliwości</a><a class="btn secondary" href="mailto:kontakt@loopcontrolos.pl">Zapytaj o prezentację</a></div>
+    </main>
+    <section class="section wrap" id="mozliwosci" aria-labelledby="modules"><h2 id="modules">Jedna platforma. Wiele możliwości.</h2><div class="cards">
+      <article class="card"><h3>CRM i relacje</h3><p>Uporządkuj kontakty, historię współpracy i działania zespołu.</p></article>
+      <article class="card"><h3>Sprzedaż i leady</h3><p>Organizuj szanse sprzedażowe, zadania i kolejne kroki.</p></article>
+      <article class="card"><h3>Marketing i treści</h3><p>Planuj komunikację i rozwijaj procesy w jednym ekosystemie.</p></article>
+    </div></section>
+    <footer><div class="wrap">© 2026 Loop Control OS · Strona informacyjna produktu w przygotowaniu.</div></footer>
+  </body>
+</html>
